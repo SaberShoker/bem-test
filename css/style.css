@@ -1,8 +1,23 @@
-a {
-  color: #e20c0c;
+body {
+  margin: 0px;
+  padding: 0px;
 }
-a:hover {
-  color: #bbbbbb;
+
+.promo {
+  background: url("../media/back0.png");
+  max-height: 100vh;
+}
+.promo header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.promo header action {
+  display: flex;
+  justify-content: space-between;
+}
+font-size .promo header action__button_sign {
+  border: 2px solid white;
 }
 
 /*# sourceMappingURL=style.css.map */

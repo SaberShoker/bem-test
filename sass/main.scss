@@ -1,7 +1,37 @@
-a {
-    color: rgb(226, 12, 12);
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
-    &:hover {
-        color: #bbbbbb;
+.promo {
+    background: url("../media/back0.png");
+    max-height: 100vh;
+    header {
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    
+        &__title {
+        }
+        action{
+            display:flex;
+            justify-content: space-between;
+
+            &__button {
+                font-size
+                &_border {
+                    border: 2px solid white;
+                }
+            }
+        }
+    }
+    
+    block {
+        &__title {
+        }
+        &__subtitle {
+        }
+        &__but {
+        }
     }
 }
